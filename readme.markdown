@@ -7,10 +7,8 @@ This library uses [drag-drop].
 # usage
 
 ```javascript
-  var DragDrop = require('react-drag-drop')(react, files => {
-    console.log(files)
-  })
-  <DragDrop />
+  var DragDrop = require('react-drag-drop')(react)
+  <DragDrop onDrop={fn}/>
 ```
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
