@@ -20,8 +20,7 @@
     "prepublish": "standard"
   },
   "dependencies": {
-    "drag-drop": "2.6.0",
-    "hyperx": "1.3.1"
+    "drag-drop": "2.6.0"
   },
   "devDependencies": {},
   "license": "MIT"
