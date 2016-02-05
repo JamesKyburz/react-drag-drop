@@ -14,11 +14,6 @@
     "name": "James Kyburz",
     "email": "james.kyburz@gmail.com"
   },
-  "browserify": {
-    "transform": [
-      "hyperxify"
-    ]
-  },
   "main": "index.js",
   "version": "1.0.0",
   "scripts": {
