@@ -2,7 +2,7 @@ var dragDrop = require('drag-drop')
 
 module.exports = create
 
-function create (react, action) {
+function create (react) {
   return react.createClass({
     el () {
       var element = this.refs['drag-drop']
@@ -10,7 +10,7 @@ function create (react, action) {
     },
     update () {
       this.cleanup()
-      this.removeDragDrop = dragDrop(this.el(), action)
+      this.removeDragDrop = dragDrop(this.el(), this.props.onDrag)
     },
     cleanup () {
       this.removeDragDrop && this.removeDragDrop()
