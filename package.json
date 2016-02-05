@@ -1,0 +1,33 @@
+{
+  "name": "react-drag-drop",
+  "description": "react drag drop component",
+  "keywords": [
+    "react",
+    "drag",
+    "drop"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jameskyburz/react-drag-drop.git"
+  },
+  "author": {
+    "name": "James Kyburz",
+    "email": "james.kyburz@gmail.com"
+  },
+  "browserify": {
+    "transform": [
+      "hyperxify"
+    ]
+  },
+  "main": "index.js",
+  "version": "1.0.0",
+  "scripts": {
+    "prepublish": "standard"
+  },
+  "dependencies": {
+    "drag-drop": "2.6.0",
+    "hyperx": "1.3.1"
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}
