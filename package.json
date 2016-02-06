@@ -20,7 +20,7 @@
     "prepublish": "standard"
   },
   "dependencies": {
-    "drag-drop": "2.6.0"
+    "drag-drop": "2.7.0"
   },
   "devDependencies": {},
   "license": "MIT"

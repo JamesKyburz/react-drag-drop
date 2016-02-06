@@ -8,7 +8,7 @@ This library uses [drag-drop].
 
 ```javascript
   var DragDrop = require('react-drag-drop')(react)
-  <DragDrop onDrop={fn}/>
+  <DragDrop onDrop={fn} onDragOver={fn} onDragLeave={fn}/>
 ```
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
