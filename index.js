@@ -20,7 +20,6 @@ function create (react) {
     componentDidUpdate () { this.update() },
     componentWillUnmount () { this.cleanup() },
     render () {
-      console.log('calling render')
       return react.createElement('div', {
         className: 'drag-drop',
         ref: 'drag-drop'
