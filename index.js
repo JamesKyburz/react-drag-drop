@@ -10,7 +10,7 @@ function create (react) {
     },
     update () {
       this.cleanup()
-      this.removeDragDrop = dragDrop(this.el())
+      this.removeDragDrop = dragDrop(this.el(), this.props)
     },
     cleanup () {
       this.removeDragDrop && this.removeDragDrop()
