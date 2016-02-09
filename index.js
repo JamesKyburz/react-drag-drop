@@ -10,7 +10,14 @@ function create (react) {
     },
     update () {
       this.cleanup()
-      this.removeDragDrop = dragDrop(this.el(), this.props)
+      this.removeDragDrop = dragDrop(this.el(), {
+        onDragOver: (e) => {
+          e.files = dragDrop.toFiles(e)
+          this.props.onDragOver(e)
+        },
+        onDragLeave: this.props.onDragLeave,
+        onDrop: this.props.onDrop
+      })
     },
     cleanup () {
       this.removeDragDrop && this.removeDragDrop()
