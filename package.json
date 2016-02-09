@@ -20,7 +20,7 @@
     "prepublish": "standard"
   },
   "dependencies": {
-    "drag-drop": "https://github.com/JamesKyburz/drag-drop.git#expose-drag-over-event"
+    "drag-drop": "https://github.com/JamesKyburz/drag-drop.git#to-files"
   },
   "devDependencies": {},
   "license": "MIT"
