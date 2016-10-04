@@ -14,13 +14,19 @@
     "name": "James Kyburz",
     "email": "james.kyburz@gmail.com"
   },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
   "main": "index.js",
   "version": "1.0.9",
   "scripts": {
     "prepublish": "standard"
   },
   "dependencies": {
-    "drag-drop": "https://github.com/JamesKyburz/drag-drop.git#expose-drag-over-event"
+    "drag-drop": "2.12.1",
+    "babel-preset-es2015": "6.14.0"
   },
   "devDependencies": {},
   "license": "MIT"
