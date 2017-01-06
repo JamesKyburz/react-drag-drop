@@ -20,7 +20,7 @@
     ]
   },
   "main": "index.js",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "scripts": {
     "prepublish": "standard"
   },
