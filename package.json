@@ -25,7 +25,7 @@
     "prepublish": "standard"
   },
   "dependencies": {
-    "babel-preset-es2015": "6.18.0",
+    "babel-preset-es2015": "6.22.0",
     "drag-drop": "2.13.0"
   },
   "devDependencies": {},
