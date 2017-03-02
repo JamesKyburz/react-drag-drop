@@ -7,7 +7,7 @@ function create (react) {
     displayName: 'DragDrop',
     update: function update () {
       this.cleanup()
-      this.removeDragDrop = dragDrop(this.refs['drag-drop'], this.props)
+      this.removeDragDrop = dragDrop(this.el, this.props)
     },
     cleanup: function cleanup () {
       this.removeDragDrop && this.removeDragDrop()
@@ -19,7 +19,7 @@ function create (react) {
     render: function render () {
       return react.createElement('div', {
         className: 'drag-drop',
-        ref: function ref (el) { this.refs['drag-drop'] = el }
+        ref: function ref (el) { this.el = el }.bind(this)
       }, this.props.children)
     }
   })
