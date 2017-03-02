@@ -4,6 +4,7 @@ module.exports = create
 
 function create (react) {
   return react.createClass({
+    displayName: 'DragDrop',
     update: function update () {
       this.cleanup()
       this.removeDragDrop = dragDrop(this.refs['drag-drop'], this.props)
