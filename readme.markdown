@@ -1,5 +1,7 @@
 # react-drag-drop
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/JamesKyburz/react-drag-drop.svg)](https://greenkeeper.io/)
+
 A simple react component for wrapping drag and drop functionality.
 
 This library uses [drag-drop].
